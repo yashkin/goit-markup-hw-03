@@ -55,7 +55,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -163,6 +162,12 @@ button:focus {
   text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: lightgreen;
+}
+
+.contacts-nav .link {
+  font-style: normal;
+  color: var(--title-text-color);
+  font-size: 14px;
 }
 
 .feauture-text {
