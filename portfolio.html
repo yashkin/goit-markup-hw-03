@@ -4,29 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
      <header class="header">
-      <nav>
-        <a class="logo" href=""
-          ><span class="logo header-web">Web</span>
-          <span class="logo header-studio">Studio</span>
-        </a>
+      <div class="container">
+        <nav>
+          <a class="logo" href=""
+            ><span class="logo header-web">Web</span>
+            <span class="logo header-studio">Studio</span>
+          </a>
 
-        <ul class="contacts-nav list">
-          <li>
-            <a href="./index.html" class="link">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link">Портфолио</a>
-          </li>
-          <li>
-            <a href="" class="link">Контакты</a>
-          </li>
-        </ul>
-
+          <ul class="contacts-nav list">
+            <li>
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li>
+              <a href="" class="link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="contacts-nav list">
           <li>
             <a href="mailto:info@devstudio.com" class="link"
@@ -34,13 +42,14 @@
             >
           </li>
           <li>
-            <a href="" class="link tel">+38 096 111 11 11</a>
+            <a href="tel:+38096111111" class="link tel">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
-      <section class="section">
+      <section class="works">
+        <div class="container">
         <h1 class="hero-title">Наши работы</h1>
         <ul class="list-workbuton list">
           <li><button type="button"  class="works-button">Все</button></li>
@@ -143,53 +152,62 @@
           </li>
           
         </ul>
+        </div>
       </section>
     </main>
       <footer class="footer">
-      <div>
-        <a class="logo" href=""
-          ><span class="logo header-web">Web</span>
-          <span class="logo header-studio">Studio</span>
-        </a>
+      <div class="container">
+        <div>
+          <a class="logo" href=""
+            ><span class="logo header-web">Web</span>
+            <span class="logo header-studio">Studio</span>
+          </a>
 
-        <address class="address">
-          <ul class="contacts-nav list">
-            <li><p class="address-text">г. Киев, пр-т Леси Украинки, 26</p></li>
+          <address class="address">
+            <ul class="contacts-nav list">
+              <li>
+                <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li>
+                <a href="mailto:info@example.com" class="link"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a href="" class="link">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="contacts-nav">
+          <h3 class="title">Присоединяйтесь</h3>
+          <ul class="list site-nav">
             <li>
-              <a href="mailto:info@example.com" class="link"
-                >info@example.com</a
+              <a href="" aria-label="Ссылка на Facebook" class="link"
+                >Facebook</a
               >
             </li>
             <li>
-              <a href="" class="link">+38 099 111 11 11</a>
+              <a href="" aria-label="Ссылка на Twitter" class="link">Twitter</a>
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на Instagram" class="link"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a href="" aria-label="Ссылка на LinkedIn" class="link"
+                >LinkedIn</a
+              >
             </li>
           </ul>
-        </address>
+        </div>
+        <div class="contacts-nav">
+          <h3 class="title">Подпишитесь на рассылку</h3>
+        </div>
+        <p class="signature">
+          2020 &#10072; Developed by GoIT Students
+        </p>
       </div>
-      <div class="contacts-nav">
-        <h3 class="title">Присоединяйтесь</h3>
-        <ul class="list site-nav">
-          <li>
-            <a href="" aria-label="Ссылка на Facebook" class="link">Facebook</a>
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на Twitter" class="link">Twitter</a>
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на Instagram" class="link"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="" aria-label="Ссылка на LinkedIn" class="link">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-      <div class="contacts-nav">
-        <h3 class="title">Подпишитесь на рассылку</h3>
-      </div>
-      <p class="signature">
-        2020 &#10072; Developed by GoIT Students
-      </p>
     </footer>
 </html>
