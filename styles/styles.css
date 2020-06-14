@@ -279,7 +279,7 @@ body {
   margin: -15px;
 }
 
-.works-list li {
+.works-list li + li {
   margin-right: 30px;
 }
 
