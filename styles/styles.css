@@ -89,6 +89,10 @@ body {
   display: flex;
 }
 
+.team {
+  padding-bottom: 94px;
+}
+
 .team-list .link {
   text-decoration: none;
 }
@@ -355,12 +359,21 @@ button:focus {
   color: var(--title-text-color);
 }
 
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .feature-list .item {
   margin-left: 30px;
 }
 
 .feature-list .title {
   margin-bottom: 10px;
+}
+
+.wedo {
+  padding-bottom: 94px;
 }
 
 .feature-list .title,
@@ -374,6 +387,10 @@ button:focus {
 
 .wedo-list li + li {
   margin-left: 30px;
+}
+
+.clients {
+  padding-bottom: 94px;
 }
 
 .clients-list li + li {
