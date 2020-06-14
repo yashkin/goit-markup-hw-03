@@ -17,34 +17,36 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav>
+        <nav class="main-nav">
           <a class="logo" href=""
             ><span class="logo header-web">Web</span>
             <span class="logo header-studio">Studio</span>
           </a>
 
           <ul class="contacts-nav list">
-            <li>
-              <a href="./index.html" class="link">Студия</a>
+            <li class="item">
+              <a href="./index.html" class="contacts-nav-link link">Студия</a>
             </li>
-            <li>
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="item">
+              <a href="./portfolio.html" class="contacts-nav-link link"
+                >Портфолио</a
+              >
             </li>
-            <li>
-              <a href="" class="link">Контакты</a>
+            <li class="item">
+              <a href="" class="contacts-nav-link link">Контакты</a>
+            </li>
+          </ul>
+          <ul class="address-nav list">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+38096111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts-nav list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+38096111111" class="link tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
       </div>
     </header>
     <main>
@@ -52,41 +54,43 @@
         <h1 class="hero-title">
           Эффективные решения для вашего бизнеса
         </h1>
-        <a class="button" href="">Заказать услугу</a>
+        <a class="button" href=""
+          ><span class="order">Заказать услугу</span>
+        </a>
       </section>
       <section class="section feature">
         <div class="container">
           <h2 class="section-title feature-title">Наши преимущества</h2>
 
-          <ul class="feature-list list">
-            <li>
+          <ul class="feature-list list main-nav">
+            <li class="item">
               <a href=""><img src="./images/antenna1.svg" alt="Антенна" /></a>
               <h3 class="title">Внимание к деталям</h3>
-              <p class="feauture-text">
+              <p class="feature-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href=""><img src="./images/clock1.svg" alt="Часы" /></a>
               <h3 class="title">Пунктуальность</h3>
-              <p class="feauture-text">
+              <p class="feature-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href=""><img src="./images/diagram.svg" alt="Диаграмма" /></a>
               <h3 class="title">Планирование</h3>
-              <p class="feauture-text">
+              <p class="feature-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <a href=""><img src="./images/astronaut1.svg" alt="Вектор" /></a>
               <h3 class="title">Современные технологии</h3>
-              <p class="feauture-text">
+              <p class="feature-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -97,7 +101,7 @@
       <section class="wedo">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul class="wedo-list list">
+          <ul class="wedo-list list main-nav">
             <li>
               <a href="" class="link"
                 ><img
@@ -131,10 +135,10 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list list">
+          <ul class="team-list list main-nav">
             <li>
               <a href="" class="link"
                 ><img
@@ -145,11 +149,11 @@
               /></a>
               <h3 class="title">Николай Кучеренко</h3>
               <p>Product Designer</p>
-              <ul class="list">
-                <li><a href="" class="link">Instagram</a></li>
-                <li><a href="" class="link">Twitter</a></li>
-                <li><a href="" class="link">Facebook</a></li>
-                <li><a href="" class="link">LinkedIn</a></li>
+              <ul class="smm list">
+                <li><a href="" class="link">Ins</a></li>
+                <li><a href="" class="link">Twt</a></li>
+                <li><a href="" class="link">Fn</a></li>
+                <li><a href="" class="link">Lkdn</a></li>
               </ul>
             </li>
             <li>
@@ -162,11 +166,11 @@
               /></a>
               <h3 class="title">Ольга Иванова</h3>
               <p>Frontend Developer</p>
-              <ul class="list">
-                <li><a href="" class="link">Instagram</a></li>
-                <li><a href="" class="link">Twitter</a></li>
-                <li><a href="" class="link">Facebook</a></li>
-                <li><a href="" class="link">LinkedIn</a></li>
+              <ul class="smm list">
+                <li><a href="" class="link">Ins</a></li>
+                <li><a href="" class="link">Twt</a></li>
+                <li><a href="" class="link">Fn</a></li>
+                <li><a href="" class="link">Lkdn</a></li>
               </ul>
             </li>
             <li>
@@ -179,11 +183,11 @@
               /></a>
               <h3 class="title">Андрей Шевченко</h3>
               <p>Marketing</p>
-              <ul class="list">
-                <li><a href="" class="link">Instagram</a></li>
-                <li><a href="" class="link">Twitter</a></li>
-                <li><a href="" class="link">Facebook</a></li>
-                <li><a href="" class="link">LinkedIn</a></li>
+              <ul class="smm list">
+                <li><a href="" class="link">Ins</a></li>
+                <li><a href="" class="link">Twt</a></li>
+                <li><a href="" class="link">Fn</a></li>
+                <li><a href="" class="link">Lkdn</a></li>
               </ul>
             </li>
             <li>
@@ -196,20 +200,20 @@
               /></a>
               <h3 class="title">Иван Николаев</h3>
               <p>UI Designer</p>
-              <ul class="list">
-                <li><a href="" class="link">Instagram</a></li>
-                <li><a href="" class="link">Twitter</a></li>
-                <li><a href="" class="link">Facebook</a></li>
-                <li><a href="" class="link">LinkedIn</a></li>
+              <ul class="smm list">
+                <li><a href="" class="link">Ins</a></li>
+                <li><a href="" class="link">Twt</a></li>
+                <li><a href="" class="link">Fb</a></li>
+                <li><a href="" class="link">Lkdn</a></li>
               </ul>
             </li>
           </ul>
         </div>
       </section>
-      <section class="clients">
+      <section class="section clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="clients-list list">
+          <ul class="clients-list list main-nav">
             <li>
               <a href="" class="link"
                 ><img src="./images/Client1.svg" alt="Логотип компании"
@@ -245,7 +249,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container main-nav">
         <div>
           <a class="logo" href=""
             ><span class="logo header-web">Web</span>
@@ -253,7 +257,7 @@
           </a>
 
           <address class="address">
-            <ul class="contacts-nav list">
+            <ul class="list">
               <li>
                 <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
               </li>
@@ -268,9 +272,9 @@
             </ul>
           </address>
         </div>
-        <div class="contacts-nav">
+        <div class="social">
           <h3 class="title">Присоединяйтесь</h3>
-          <ul class="list site-nav">
+          <ul class="list">
             <li>
               <a href="" aria-label="Ссылка на Facebook" class="link"
                 >Facebook</a
@@ -291,13 +295,13 @@
             </li>
           </ul>
         </div>
-        <div class="contacts-nav">
+        <div class="footer-nav">
           <h3 class="title">Подпишитесь на рассылку</h3>
         </div>
-        <p class="signature">
-          2020 &#10072; Developed by GoIT Students
-        </p>
       </div>
+      <p class="signature">
+        2020 &#10072; Developed by GoIT Students
+      </p>
     </footer>
   </body>
 </html>
