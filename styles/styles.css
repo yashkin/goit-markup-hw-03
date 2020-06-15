@@ -279,8 +279,8 @@ body {
   margin: -15px;
 }
 
-.works-list li + li {
-  margin-right: 30px;
+.works-list .item + .item {
+  margin-left: 30px;
 }
 
 .works-list .link {
