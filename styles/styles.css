@@ -279,8 +279,16 @@ body {
   margin: -15px;
 }
 
-.works-list .item + .item {
+/* .works-list .item + .item {
   margin-left: 30px;
+} */
+
+.works-list .item {
+  margin-right: 30px;
+}
+
+.works-list .item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .works-list .link {
