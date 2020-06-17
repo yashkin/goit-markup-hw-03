@@ -97,8 +97,9 @@ body {
   text-decoration: none;
 }
 
-.team-list li + li {
+.team-list .item + .item {
   margin-left: 30px;
+  width: calc ((100%-90px)/4);
 }
 
 .text {
@@ -268,11 +269,6 @@ body {
   outline: 5px solid salmon;
 }
 
-.feature {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -378,8 +374,14 @@ button:focus {
   color: var(--title-text-color);
 }
 
-.feature-list .item {
+.feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.feature-list .item + .item {
   margin-left: 30px;
+  width: calc ((100%-90px)/4);
 }
 
 .feature-list .title {
@@ -399,16 +401,18 @@ button:focus {
   color: var(--title-text-color);
 }
 
-.wedo-list li + li {
+.wedo-list .item. + .item {
   margin-left: 30px;
+  width: calc ((100%-60px)/3);
 }
 
 .clients {
   padding-bottom: 94px;
 }
 
-.clients-list li + li {
+.clients-list .item + .item {
   margin-left: 30px;
+  width: calc ((100%-180px)/6);
 }
 
 .feature-title {
