@@ -22,6 +22,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -244,8 +249,8 @@ body {
 }
 
 .address-nav {
-  display: flex;
   margin-left: auto;
+  display: flex;
 }
 
 .address-nav .title {
@@ -262,6 +267,13 @@ body {
 }
 
 .address-nav .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.address-nav .item {
+  /* display: flex; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
