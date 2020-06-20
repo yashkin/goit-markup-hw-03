@@ -186,8 +186,9 @@ body {
 
 .footer-flex {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
+  padding-bottom: 26px;
 }
 
 .footer-nav {
