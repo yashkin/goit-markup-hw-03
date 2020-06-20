@@ -330,6 +330,7 @@ body {
 
 .works-list .link {
   text-decoration: none;
+  text-align: center;
   display: block;
 }
 
